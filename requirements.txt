@@ -2,3 +2,4 @@ streamlit>=1.57
 pandas>=2.2
 altair>=5
 numpy
+openpyxl>=3.1  # only needed to rebuild data/ from the Excel raw files

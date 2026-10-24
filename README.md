@@ -39,13 +39,14 @@ One story, two actions: **monitor prices now, reduce import exposure over time.*
 
 | Audience | Page they use | Decisions it supports | What it can't tell them |
 |---|---|---|---|
-| **Consumer-protection authorities** (primary audience for the price monitor) | Price monitor | Which items and governorates to inspect first; which items to watch month to month; what to tell consumers | Which shop is overcharging (no shop-level data), or *why* a gap exists |
-| **Industrial-development and agro-food planners**, e.g. agencies supporting local production (primary audience for import dependence) | Import dependence | Which staples to shortlist for value-chain or feasibility studies; how exposed each staple is to a single supplier country | Whether producing locally would be cheaper (public production-cost data stops in 2019) |
+| **Consumer protection** — potential audience: Lebanon's consumer-protection authority (primary audience for the price monitor) | Price monitor | Which items and governorates to inspect first; which items to watch month to month; what to tell consumers | Which shop is overcharging (no shop-level data), or *why* a gap exists |
+| **UNIDO** — potential audience: the UN Industrial Development Organization and other agro-food development planners (primary audience for import dependence) | Import dependence | Which staples to shortlist for value-chain or feasibility studies; how exposed each staple is to a single supplier country | Whether producing locally would be cheaper (public production-cost data stops in 2019) |
 | **The public, students and media** (secondary audience, reached through the course blog post and social media) | Overview | Understanding how food prices changed relative to other costs and the currency | Personal shopping advice (prices are governorate averages) |
 
-Stakeholders were chosen because members of the team have professional contacts in these kinds of
-organisations, so the dashboard can be shown to real users and their feedback recorded. No organisation
-has endorsed this work, and contacts are not named here without their permission.
+UNIDO and the consumer-protection authority were chosen as **potential audiences** because members of
+the team have professional contacts there, so the dashboard can be shown to real users and their
+feedback recorded. Neither organisation has endorsed or contributed to this work; individual contacts
+are not named.
 
 ---
 
@@ -189,7 +190,7 @@ Full file-by-file documentation, links and licences: [`raw data/README.md`](raw%
 This is a course project. Its main deliverable is **impact**: showing the dashboard to the people who
 could use it and recording their feedback. The plan:
 
-1. Share the live app with consumer-protection and industrial-development contacts and ask:
+1. Share the live app with contacts at the consumer-protection authority and UNIDO and ask:
    *Which of these would you use? Would these flags change where you inspect? Are these the right
    factors for choosing value chains? What's missing?*
 2. Publish a blog post with the embedded app on the AUB data-visualization site and share it on social media.
@@ -210,11 +211,16 @@ data stakeholders are willing to share.
 ├── pipeline/build_data.py  turns raw data into the cleaned tables
 ├── raw data/               original source files (see raw data/README.md)
 ├── data/                   cleaned tables the app reads (also usable in Tableau)
+├── tests/smoke_test.py     checks data and runs every page
+├── SETUP.md                local setup guide (for people and AI agents)
 ├── requirements.txt
 └── .streamlit/config.toml  theme
 ```
 
 ## Run it locally
+
+Full step-by-step instructions with checks (written so an AI agent can follow them): **[`SETUP.md`](SETUP.md)**.
+Quick version:
 
 ```bash
 pip install -r requirements.txt
