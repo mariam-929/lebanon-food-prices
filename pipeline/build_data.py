@@ -1,6 +1,6 @@
 """Build the cleaned tables used by the dashboard (and reusable in Tableau).
 
-Reads the raw files in ../../datasets/lebanon food prices/ and writes tidy CSVs to ../data/.
+Reads the raw files in ../raw data/ and writes tidy CSVs to ../data/.
 Run:  python pipeline/build_data.py
 """
 from pathlib import Path
@@ -13,7 +13,7 @@ import pandas as pd
 warnings.filterwarnings("ignore")
 
 ROOT = Path(__file__).resolve().parents[1]
-RAW = ROOT.parent / "datasets" / "lebanon food prices"
+RAW = ROOT / "raw data"
 OUT = ROOT / "data"
 OUT.mkdir(exist_ok=True)
 
