@@ -97,6 +97,7 @@ python -m streamlit run streamlit_app.py --server.headless true --server.port 85
 
 | Symptom | Fix |
 |---|---|
+| `Filename too long` during `git clone` (Windows) | Clone into a short path such as `C:\dev\`, or run `git config --global core.longpaths true` first |
 | `ModuleNotFoundError: lib` | Run commands from the repository root, not from `app_pages/` or `tests/` |
 | `UnicodeEncodeError` printing Arabic/French text on Windows | Set `PYTHONIOENCODING=utf-8` before running Python |
 | `PermissionError` reading an `.xlsx` in `raw data/` | The file is open in Excel; close it. The pipeline also falls back to a temp copy for the World Bank file |
