@@ -1,0 +1,30 @@
+commodity,origin_class,origin_basis,regulated_price,first_month,last_month
+Apples,Mostly local,Net exporter (FAOSTAT + Comtrade),False,2023-01-01,2026-08-01
+Beans (white),Mostly imported,Self-sufficiency ~38% (FAOSTAT + Comtrade),False,2021-03-01,2026-08-01
+Bread (pita),Locally processed / mixed,Baked locally from imported wheat (wheat self-sufficiency ~18%),True,2021-03-01,2026-08-01
+Bulgur (brown),Locally processed / mixed,Processed locally from mostly imported wheat,False,2021-03-01,2026-08-01
+Cabbage,Mostly local,Self-sufficiency ~95% (FAOSTAT + Comtrade),False,2013-09-01,2026-08-01
+Carrots,Mostly local,Self-sufficiency ~65% (FAOSTAT + Comtrade),False,2023-01-01,2026-08-01
+Cheese (picon),Mostly imported,Imported branded product,False,2012-08-01,2022-12-01
+Chickpeas,Mostly imported,Self-sufficiency ~18% (FAOSTAT + Comtrade),False,2021-03-01,2026-08-01
+Cucumbers (greenhouse),Mostly local,Self-sufficiency ~100% (FAOSTAT + Comtrade),False,2015-01-01,2024-05-01
+Eggs,Mostly local,Negligible imports (Comtrade),False,2012-08-01,2026-08-01
+"Fish (sardine, canned)",Mostly imported,Imported processed product,False,2013-09-01,2026-08-01
+"Fish (tuna, canned)",Mostly imported,Imported processed product,False,2012-10-01,2022-12-01
+Lentils,Mostly imported,Self-sufficiency ~15% (FAOSTAT + Comtrade),False,2022-10-01,2026-08-01
+Lentils (green),Mostly imported,Self-sufficiency ~15% (FAOSTAT + Comtrade),False,2017-01-01,2022-12-01
+Lentils (red),Mostly imported,Self-sufficiency ~15% (FAOSTAT + Comtrade),False,2017-01-01,2022-12-01
+Lettuce,Mostly local,Fresh local produce,False,2013-09-01,2022-12-01
+"Meat (beef, canned)",Mostly imported,Imported processed product,False,2012-08-01,2022-12-01
+"Meat (chicken, whole, frozen)",Mostly local,Domestic production ~137k t vs small imports,False,2015-01-01,2022-12-01
+Milk (powder),Mostly imported,No domestic milk-powder production recorded; US$35-45M imports/yr,False,2021-03-01,2026-08-01
+Oil (sunflower),Mostly imported,Domestic crude sunflower oil 2-6k t vs ~US$140M imports/yr,False,2012-08-01,2026-08-01
+Pasta (spaghetti),Locally processed / mixed,"Made locally and imported, from imported wheat",False,2021-03-01,2026-08-01
+Potatoes,Mostly local,Self-sufficiency ~95-100% (FAOSTAT + Comtrade),False,2023-01-01,2026-08-01
+"Rice (imported, Egyptian)",Mostly imported,No domestic rice production recorded (FAOSTAT),False,2021-03-01,2026-08-01
+Salt,Locally processed / mixed,"Some local sea salt, some imports",False,2021-03-01,2026-08-01
+Spinach,Mostly local,Fresh local produce,False,2015-01-01,2016-12-01
+Sugar (white),Mostly imported,Domestic sugar-beet output ~10k t vs >100k t refined-sugar imports,False,2021-03-01,2026-08-01
+Tea,Mostly imported,No domestic tea production recorded (FAOSTAT),False,2022-10-01,2026-08-01
+Tomatoes (paste),Locally processed / mixed,Local tomatoes and imported paste,False,2021-03-01,2026-08-01
+Wheat flour,Locally processed / mixed,Milled locally from imported wheat,False,2021-03-01,2024-05-01

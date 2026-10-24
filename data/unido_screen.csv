@@ -1,0 +1,13 @@
+group,wfp_items,hs6_codes,self_sufficiency,self_sufficiency_basis,import_bill_2024_usd,import_bill_2019_usd,shelf_volatility_pct,supplier_hhi,top_supplier,top_supplier_share
+Wheat products,Wheat flour; Bulgur (brown); Pasta (spaghetti),100119; 110100; 190430; 190219,0.21999999999999997,"FAOSTAT production + Comtrade, 2022-24 mean",184498394.0,161799719.14,10.53390177100159,0.371069448036638,Ukraine,0.5501025320793713
+Lentils,Lentils; Lentils (green); Lentils (red),071340,0.14333333333333334,"FAOSTAT production + Comtrade, 2022-24 mean",11995853.0,7820036.96,5.800695726300452,0.37843880563872884,Canada,0.5817367751734713
+Chickpeas,Chickpeas,071320,0.229,"FAOSTAT production + Comtrade, 2022-24 mean",18584072.0,10329855.11,5.9654033629528485,0.20671750638680003,Russian Federation,0.37259888209818165
+Dry beans,Beans (white),071333,0.4323333333333334,"FAOSTAT production + Comtrade, 2022-24 mean",7685875.0,5137858.5,4.678804256247936,0.32207708140102703,Egypt,0.463671758940717
+Rice,"Rice (imported, Egyptian)",100630,0.0,Assumed ~0: no domestic production recorded in FAOSTAT,83517653.0,61490472.21,2.9870684301382924,0.21994262849273583,India,0.3217550811318679
+Sugar,Sugar (white),170199,0.0,Assumed ~0: no domestic production recorded in FAOSTAT,129306303.0,72137355.62,4.321468044839906,0.1351840449592006,Brazil,0.2194200498579321
+Sunflower oil,Oil (sunflower),151219; 151211,0.02498430527937258,"FAOSTAT crude-oil production + Comtrade, 2022-23 mean",139744048.0,74015670.1,4.929986704877175,0.37005973755607535,Ukraine,0.43037807603567435
+Milk powder,Milk (powder),040221; 040210,0.0,Assumed ~0: no domestic production recorded in FAOSTAT,80818561.0,87533818.5,3.6887168479418886,0.08432613553008703,Denmark,0.16968889872792364
+Tea,Tea,090230,0.0,Assumed ~0: no domestic production recorded in FAOSTAT,17546903.0,21165187.48,8.102664652275129,0.5148240289948978,Sri Lanka,0.6541455368636349
+Tomato paste,Tomatoes (paste),200290,,Not computable from public data,11347029.0,9872900.84,5.163106913296131,0.21485750039129303,China,0.3247196349422383
+Potatoes,Potatoes,070190,0.9783333333333334,"FAOSTAT production + Comtrade, 2022-24 mean",25802133.0,27321152.73,11.221385723754825,,,
+Cabbage,Cabbage,070490,0.9403333333333332,"FAOSTAT production + Comtrade, 2022-24 mean",2497859.0,358574.26,23.894789290873504,,,
